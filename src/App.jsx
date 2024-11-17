@@ -8,7 +8,7 @@ const App = () => {
     <main className="bg-slate-300/20 h-full">
       <Router>
         <Navbar />
-        <Routes>
+        <Routes basename="/vite-react-deploy/">
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
